@@ -95,8 +95,9 @@ void draw() {
     groupCoordY+= 40;
     groupCoordY = groupCoordY % groupSizeY;
   }
+  saveFrame("line-######.png");
 }
 
 void keyPressed() {
-  saveFrame("line-######.png");
+  
 }
